@@ -1,0 +1,48 @@
+
+body{
+    text-align: center;
+    background-image: url(Background.jpg);
+    background-size: 1920px 1080px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 3em;
+    border: 2px 2px 2px 2px solid rgb(67, 69, 71);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px 5px #222020e5;
+}
+.key{
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 3em;
+    border: 2px 2px 2px 2px solid rgb(67, 69, 71);
+    border-radius: 10px;
+    
+    text-align: center;
+    box-shadow: 4px 4px 5px 5px #222020e5;
+}
+button {
+    margin-top: 25px;
+    border: none;
+    color: rgb(157, 120, 226);
+    background-color: #423c3cec;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+canvas{
+    border: 8px solid black;
+    border-radius: 10px;
+}
+
